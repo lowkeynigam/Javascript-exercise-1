@@ -1,6 +1,6 @@
 var taskList = document.getElementsByTagName("LI");
 var i;
-for (I = 0; i < taskList.length; i++) {
+for (i = 0; i < taskList.length; i++) {
     var span = document.createElement("SPAN");
     var txt = document.createTextNode("/u00D7");
     span.className = "close";
